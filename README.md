@@ -10,9 +10,9 @@ Es un software con interface web escrito en java que permite crear fuentes de da
 ```
 docker run --name mimetabase -d -p 3000:3000 magm3333/metabase-armv7
 ```
-Puedes reutilizar tus bases de datos ya existentes mapeando volúmenes, por ejemplo:
+Puedes reutilizar tus bases de datos ya existentes mapeando volúmenes (*-v /lugar/de/la/base/de/datos:/app/database*), por ejemplo:
 ```
-docker run --name mimetabase -d -p 3000:3000 **-v /lugar/de/la/base/de/datos:/app/database** magm3333/metabase-armv7
+docker run --name mimetabase -d -p 3000:3000 -v /lugar/de/la/base/de/datos:/app/database magm3333/metabase-armv7
 ```
 
 **Crear la imagen**
