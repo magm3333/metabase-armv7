@@ -32,8 +32,12 @@ Puedes ver el log de tu contenedor de la siguiente manera:
 ```
 docker logs mimetabase
 ```
+
+**Atención:** *Tienes que tener en cuenta que la primera vez que se ejecuta, puede tardar un buen tiempo en responder, ya que iniciacilza las bases de datos.*
+
 Finalmente podrás disfrutar de tu Metabase accediendo a la url: *http://localhost:3000* 
 
+**Aclaración:** *Esta imagen ha sido probada en una Raspberry PI 4 con 2 y con 4 GB de RAM*
 
 **Agradecimientos**
 - A mi queridx amigx [Darío Bernabeu](http://troyanx.com/Hefesto/bernabeu_dario.html), compañerx de aventuras, aprendizajes y demás cosas importantes de la vida.
@@ -42,6 +46,7 @@ Finalmente podrás disfrutar de tu Metabase accediendo a la url: *http://localho
 
 **TODO**
 - Ejemplo de cambio de Time Zone
+
 
 ***
 
